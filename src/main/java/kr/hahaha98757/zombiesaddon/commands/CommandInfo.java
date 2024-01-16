@@ -38,7 +38,7 @@ public class CommandInfo extends CommandBase {
 		if (args.length == 0) {
 			player.addChatComponentMessage(new ChatComponentText(LINE + "\nMod name: " + ZombiesAddon.NAME
 					+ "\nVersion: " + ZombiesAddon.VERSION
-					+ "\nMod list: Cornering, Block Alarm, DPS Counter, NOTLAST, Auto Splits, ZSV, SLA, Advanced SLA, and Auto Rejoin.\nOption list: Powerup Alarm, Boss Alarm, Lrod Order, and Hologram Remover.\nInfo: A mod that helps playing hypixel zombies.\nCommand tips: Use /info [Cornering|BlockAlarm|DPSCounter|NOTLAST|AutoSplits|ZSV|SLA|AdvancedSLA|AutoRejoin|ZombiesAddon] to view mod's description.\nURL: https://blog.naver.com/hahaha98757/223012598464\n"
+					+ "\nMod list: Cornering, Block Alarm, DPS Counter, NOTLAST, Auto Splits, ZSV, SLA, Advanced SLA, and Auto Rejoin.\nOption list: Powerup Alarm, Boss Alarm, and Lrod Order.\nInfo: A mod that helps playing hypixel zombies.\nCommand tips: Use /info [Cornering|BlockAlarm|DPSCounter|NOTLAST|AutoSplits|ZSV|SLA|AdvancedSLA|AutoRejoin|ZombiesAddon] to view mod's description.\nURL: https://blog.naver.com/hahaha98757/223012598464\n"
 					+ LINE));
 			return;
 		}
@@ -90,9 +90,6 @@ public class CommandInfo extends CommandBase {
 			case "LrodOrder":
 				text = "Name: Lrod Order\nCode by: hahaha9875\nInfo: Shows the order of use of Lrod.\nConfig: Used";
 				break;
-			case "HologramBug":
-				text = "Name: Hologram Remover\nCode by: hahaha98757\nInfo: Remove hologram in Gstep. (may fail)\nConfig: Used";
-				break;
 			}
 		default:
 			player.addChatComponentMessage(new ChatComponentText(getCommandUsage(null)));
@@ -111,8 +108,7 @@ public class CommandInfo extends CommandBase {
 			if (!args[0].equals("ZombiesAddon")) {
 				return null;
 			}
-			return getListOfStringsMatchingLastWord(args,
-					new String[] { "PowerupAlarm", "BossAlarm", "LrodOrder", "HologramRemover" });
+			return getListOfStringsMatchingLastWord(args, new String[] { "PowerupAlarm", "BossAlarm", "LrodOrder" });
 		default:
 			return null;
 		}
