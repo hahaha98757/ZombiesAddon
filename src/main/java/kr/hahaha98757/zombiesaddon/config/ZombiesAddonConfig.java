@@ -18,7 +18,6 @@ public class ZombiesAddonConfig {
 	public static boolean overlayKorean = false;
 	public static boolean bossAlarm = false;
 	public static boolean lrodOrder = false;
-	public static boolean hologramRemover = false;
 	public static boolean[] modDefaultValue = { false, false, false, false, false, false, false };
 	public static boolean downedPlayerInvisible = false;
 	public static boolean healthIndicator = false;
@@ -48,8 +47,6 @@ public class ZombiesAddonConfig {
 				"Shows the order of use of Lrod.");
 		int configLrodOrderDelays = config.getInt("Zombies Addon: Lrod Order Delays (Unit: ticks, 1 second = 20 ticks)",
 				Configuration.CATEGORY_GENERAL, 100, 0, 200, "Set delays of Lrod Order.");
-		boolean configHologramRemover = config.getBoolean("Zombies Addon: Hologram Remover",
-				Configuration.CATEGORY_GENERAL, false, "Remove hologram in Gstep (may fail)");
 		boolean[] configModDefaultValue = config.get(Configuration.CATEGORY_GENERAL, "Zombies Addon: Mod Default Value",
 				new boolean[] { false, false, false, false, false, false, false },
 				"Set the default value of Cornering, Block Alarm, DPS Counter, NOTLAST, Auto Splits, Auto Rejoin, and Powerup Alarm.")
@@ -90,7 +87,6 @@ public class ZombiesAddonConfig {
 		bossAlarm = configBossAlarm;
 		lrodOrder = configLrodOrder;
 		LrodOrderListener.LrodOrderDelays = configLrodOrderDelays;
-		hologramRemover = configHologramRemover;
 		modDefaultValue = configModDefaultValue;
 		CommandCornering.range = configRange;
 		downedPlayerInvisible = configDownedPlayerInvisible;

@@ -143,24 +143,6 @@ public class EventListener {
 		}
 	}
 
-	@SubscribeEvent
-	public void hologramRemover(ClientChatReceivedEvent event) {
-		String message = event.message.getUnformattedText();
-		if (message.contains(">")) {
-			return;
-		}
-
-		if (!ZombiesAddonConfig.hologramRemover) {
-			return;
-		}
-
-		if ((message.contains("Power Station") && message.contains("opened"))
-				|| (message.contains("\uBC1C\uC804\uC18C") && message.contains("\uC5F4\uC5C8\uC2B5\uB2C8\uB2E4"))) {
-			Minecraft.getMinecraft().refreshResources();
-		}
-
-	}
-
 	public static void gameOver() {
 		PowerupAlarmListener.spawnedEntities.clear();
 

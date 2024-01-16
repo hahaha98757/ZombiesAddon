@@ -65,8 +65,8 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 public class ZombiesAddon {
 	public static final String MODID = "ZombiesAddon";
 	public static final String NAME = "Zombies Addon";
-	public static final String VERSION = "1.12.0";
-	public static final String CONFIG_VERSION = "1";
+	public static final String VERSION = "1.12.1";
+	public static final String CONFIG_VERSION = "2";
 
 	private final DisplaySLAOverlayListener slaListener = new DisplaySLAOverlayListener();
 
@@ -94,7 +94,7 @@ public class ZombiesAddon {
 		try {
 			Path filePath = Paths.get("config/ZombiesAddonCfgVersion.txt");
 
-			List<String> content = Arrays.asList("DO NOT modify this file.", CONFIG_VERSION);
+			List<String> content = Arrays.asList("DO NOT EDIT", CONFIG_VERSION);
 
 			Files.write(filePath, content, StandardCharsets.UTF_8);
 		} catch (IOException e) {
@@ -158,6 +158,7 @@ public class ZombiesAddon {
 		ClientCommandHandler.instance.registerCommand(new CommandSLA(this.slaListener));
 		ClientCommandHandler.instance.registerCommand(new CommandPowerupAlarm());
 
+		MinecraftForge.EVENT_BUS.register(new UpdateChecker());
 		MinecraftForge.EVENT_BUS.register(new ConfigChangedHandler(this));
 		MinecraftForge.EVENT_BUS.register(new EventListener());
 		MinecraftForge.EVENT_BUS.register(new BossAlarmListener());
