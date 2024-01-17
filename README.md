@@ -1,7 +1,7 @@
 # Zombies Addon
 A mod that helps playing hypixel zombies.
 
-[한국어 내용](https://namu.wiki/w/%ED%95%98%EC%9D%B4%ED%94%BD%EC%85%80/Zombies/%ED%8C%81#s-4.1.1)
+[한국어 내용](https://namu.wiki/w/%ED%95%98%EC%9D%B4%ED%94%BD%EC%85%80/Zombies/%ED%8C%81#s-4.1.1), [한국어 업데이트 로그]()
 
 ## Features
 
@@ -156,7 +156,8 @@ It works only if set the language of Hypixel in English or Korean.
 - Fixed bugs.
 
 ### 1.8.8
-- Fixed bugs. Added Boss Wave Alarm for Auto Splits.
+- Fixed bugs.
+- Added Boss Wave Alarm for Auto Splits.
 
 ### 1.8.7
 - Fixed bugs.
