@@ -1,6 +1,8 @@
 # Zombies Addon
 A mod that helps playing hypixel zombies.
 
+[한국어 내용](https://namu.wiki/w/%ED%95%98%EC%9D%B4%ED%94%BD%EC%85%80/Zombies/%ED%8C%81#s-4.1.1)
+
 ## Features
 
 ### Cornering
