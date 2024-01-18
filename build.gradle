@@ -20,8 +20,8 @@ plugins {
     id "net.minecraftforge.gradle.forge" version "2.0.2"
 }
 */
-version = "1.12.1"
-group= "kr.hahaha98757.zombiesaddon" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+version = "1.12.2"
+group= "kr.hahaha98757.ZombiesAddon" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "ZombiesAddon"
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
