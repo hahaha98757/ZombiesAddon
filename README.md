@@ -104,6 +104,10 @@ It works only if set the language of Hypixel in English or Korean.
 
 ## Update Log
 
+### 1.12.2
+- Fixed update checker.
+- Fixed /info command.
+
 ### 1.12.1
 - Removed Hologram Remover.
 - Added update checker.
