@@ -1,10 +1,9 @@
 # Zombies Addon
 A mod that helps playing hypixel zombies.
 
-[한국어 내용](https://namu.wiki/w/%ED%95%98%EC%9D%B4%ED%94%BD%EC%85%80/Zombies/%ED%8C%81#s-4.1.1), [한국어 업데이트 로그]()
+[한국어 내용](https://namu.wiki/w/%ED%95%98%EC%9D%B4%ED%94%BD%EC%85%80/Zombies/%ED%8C%81#s-4.1.1), [한국어 업데이트 로그](https://blog.naver.com/hahaha98757/223012598464)
 
 ## Features
-
 ### Cornering
 Toggles the visibility of players nearby.
 Use /cornering <number> command to set the range of cornering.
@@ -103,6 +102,10 @@ It works only if set the language of Hypixel in English or Korean.
 ****
 
 ## Update Log
+
+### 1.12.3
+- Fixed bugs.
+- Fixed update checker
 
 ### 1.12.2
 - Fixed update checker.
