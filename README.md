@@ -99,9 +99,19 @@ Shows the order of use of Lrod.
 Used the config.
 It works only if set the language of Hypixel in English or Korean.
 
+### Grow ESP
+Shows the arithmetic mean of the size of the slimes for growing.
+Used the config.
+
 ****
 
 ## Update Log
+
+### 1.13.0
+- Fixed bugs.
+- Added Grow ESP.
+- Wave delay of SST are off when use with SST.
+
 
 ### 1.12.3
 - Fixed bugs.
