@@ -106,11 +106,15 @@ Used the config.
 
 ### Gstep Guide
 Shows hitbox of armor stand in Gstep.
-It works only if set the language of Hypixel in English.
+It works only if set the language of Hypixel in English or Korean.
 
 ****
 
 ## Update Log
+
+### 1.14.0-pre2
+- Fixed bugs.
+- Fixed Gstep Guide.
 
 ### 1.14.0-pre1
 - Added Gstep Guide.
