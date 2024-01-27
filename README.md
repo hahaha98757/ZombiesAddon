@@ -112,6 +112,9 @@ It works only if set the language of Hypixel in English or Korean.
 
 ## Update Log
 
+### 1.14.0-pre4
+- Fixed bugs.
+
 ### 1.14.0-pre3
 - Fixed bugs.
 
