@@ -77,6 +77,7 @@ Others is the same as SLA.
 
 ### Auto Rejoin
 Automatically rejoin the Zombies game.
+Used the config.
 It works only if set the language of Hypixel in English or Korean.
 
 ### Powerup Alarm
@@ -103,9 +104,19 @@ It works only if set the language of Hypixel in English or Korean.
 Shows the arithmetic mean of the size of the slimes for growing.
 Used the config.
 
+### Gstep Guide
+Shows hitbox of armor stand in Gstep.
+It works only if set the language of Hypixel in English.
+
 ****
 
 ## Update Log
+
+### 1.14.0-pre1
+- Added Gstep Guide.
+- Fixed DPS Counter, NOTLAST, Auto Splits, and Powerup Alarm.
+- Fixed bugs.
+
 
 ### 1.13.0
 - Fixed bugs.
