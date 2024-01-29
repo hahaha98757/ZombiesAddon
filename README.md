@@ -131,7 +131,7 @@ It works only if set the language of Hypixel in English or Korean.
 ### 1.13.0
 - Fixed bugs.
 - Added Grow ESP.
-- Wave delay of SST are off when use with SST.
+- Wave delay of SST is off when use with SST.
 
 
 ### 1.12.3
