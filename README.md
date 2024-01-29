@@ -37,9 +37,9 @@ Displays the wave which the boss spawns.
 | Red | Inferno |
 | Dark Purple | The Broodmother, Wither, or Herobrine |
 | Red and Apua | Lily and Ellie |
-| Green | King Slime |
+| Green | King Slime or Mega Blob |
 | Dark Apua | (Rainbow) Giant |
-| Dark Red | The Old One |
+| Dark Red | The Old One or Mega Magma |
 | Dark Apua and Dark Red | (Rainbow) Giant and The Old One |
 | Black | World Ender |
 
