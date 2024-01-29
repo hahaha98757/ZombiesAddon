@@ -112,6 +112,11 @@ It works only if set the language of Hypixel in English or Korean.
 
 ## Update Log
 
+### 1.14.0
+- Fixed bugs.
+- Timer of Zombies Utils is off when use with Zombies Utils.
+- Removed Health Indicator for Block Alarm.
+
 ### 1.14.0-pre4
 - Fixed bugs.
 
