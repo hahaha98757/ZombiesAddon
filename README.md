@@ -112,6 +112,11 @@ It works only if set the language of Hypixel in English or Korean.
 
 ## Update Log
 
+### 1.15.0
+- Fixed bugs.
+- Added Play Sound for Auto Splits.
+
+
 ### 1.14.0
 - Fixed bugs.
 - Timer of Zombies Utils is off when use with Zombies Utils.
