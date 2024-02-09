@@ -112,6 +112,10 @@ It works only if set the language of Hypixel in English or Korean.
 
 ## Update Log
 
+### 1.15.1
+- Fixed bugs.
+- Removed Countdown.
+
 ### 1.15.0
 - Fixed bugs.
 - Added Play Sound for Auto Splits.
