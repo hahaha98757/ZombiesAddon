@@ -1,7 +1,7 @@
 # Zombies Addon
 A mod that helps playing hypixel zombies.
 
-[한국어 내용](https://namu.wiki/w/%ED%95%98%EC%9D%B4%ED%94%BD%EC%85%80/Zombies/%ED%8C%81#s-4.1.1), [한국어 업데이트 로그](https://blog.naver.com/hahaha98757/223012598464)
+[한국어 내용](https://blog.naver.com/hahaha98757/223012598464)
 
 ## Features
 ### Cornering
@@ -11,8 +11,6 @@ Used the config.
 
 ### Block Alarm
 If you survived alone and there are players within 1.5m that can revive, show "BLOCK" on display.
-Display player's health.
-Used the config.
 It works only if set the language of Hypixel in English or Korean.
 
 ### DPS Counter
@@ -66,7 +64,7 @@ off: Close text.
 Use /ZSVLines <number> command to set lines of view.
 
 ### Spawn Limit Action
-Display number of windows which zombie can spawn in.
+Display number of windows where zombies can spawn.
 Use /SLA <de|bb|aa|off> to sets the map or off SLA.
 Used the config.
 
@@ -91,7 +89,7 @@ It works only if set the language of Hypixel in English or Korean.
 [Zombies Overlay](https://github.com/TheExploration/zombies-overlay) works even if language of Hypixel in Korean.
 
 ### Boss Alarm
-You will know which area the boss spawned in.
+You will know the area where the boss spawned.
 Used the config.
 It works only if set the language of Hypixel in English or Korean.
 
