@@ -110,6 +110,16 @@ It works only if set the language of Hypixel in English or Korean.
 
 ## Update Log
 
+### 1.16.0-pre1
+- Fixed bugs.
+- Removed Lrod Order.
+- Added RL-mode for Auto Splits.
+- Fixed Update Checker.
+- Added Extra Setting.
+- Fixed Wave Delays.
+- Removed config for Powerup Alarm.
+
+
 ### 1.15.1
 - Fixed bugs.
 - Removed Countdown.
