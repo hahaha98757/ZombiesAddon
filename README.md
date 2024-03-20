@@ -97,6 +97,7 @@ It works only if set the language of Hypixel in English or Korean.
 Shows the order of use of Lrod.
 Used the config.
 It works only if set the language of Hypixel in English or Korean.
+It is removed.(pre)
 
 ### Grow ESP
 Shows the arithmetic mean of the size of the slimes for growing.
