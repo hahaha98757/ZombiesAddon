@@ -107,9 +107,21 @@ Used the config.
 Shows hitbox of armor stand in Gstep.
 It works only if set the language of Hypixel in English or Korean.
 
+### Other
+Fixed a bug of forge that commands are runned without "/".
+You can turn off Wave Delay of SST in the ".minecraft\config\ZombiesAddonSST.txt".
+You can turn off timer of ZombiesUtils in the ".minecraft\config\ZombiesAddonZombiesUtils.txt".
+
 ****
 
 ## Update Log
+
+### 1.16.0
+- Fixed bugs.
+- Renamed Extra Setting.
+
+### 1.16.0-pre2
+- Fixed bugs.
 
 ### 1.16.0-pre1
 - Fixed bugs.
