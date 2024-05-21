@@ -110,7 +110,7 @@ It works only if set the language of Hypixel in English or Korean.
 ### Other
 Fixed a bug of forge that commands are runned without "/".
 You can turn off Wave Delay of SST in the ".minecraft\config\ZombiesAddonSST.txt".
-You can turn off timer of ZombiesUtils in the ".minecraft\config\ZombiesAddonZombiesUtils.txt".
+You can turn off timer of Zombies Utils in the ".minecraft\config\ZombiesAddonZombiesUtils.txt".
 
 ****
 
