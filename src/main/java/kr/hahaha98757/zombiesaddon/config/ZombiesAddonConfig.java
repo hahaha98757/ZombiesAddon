@@ -37,7 +37,7 @@ public class ZombiesAddonConfig {
 	public static boolean shortenedSLA = true;
 	
 	public static boolean toggleDPSCounter = true;
-	public static boolean toggleNotLast = false;
+	public static boolean toggleNotLast = true;
 	public static boolean toggleAutoSplits = true;
 	public static boolean togglePowerupAlarm = true;
 	public static boolean toggleBossAlarm = false;
@@ -122,14 +122,14 @@ public class ZombiesAddonConfig {
 		others.put(propertyTogglePowerupAlarm.getName(), new ConfigElement(propertyTogglePowerupAlarm));
 		
 		Property propertyToggleBossAlarm = config.get(Configuration.CATEGORY_GENERAL, "Boss Alarm: Toggle Boss Alarm", false, "You can know the area where the boss has spawned.");
-		togglePowerupAlarm = propertyToggleBossAlarm.getBoolean();
+		toggleBossAlarm = propertyToggleBossAlarm.getBoolean();
 		others.put(propertyToggleBossAlarm.getName(), new ConfigElement(propertyToggleBossAlarm));
 		
 		Property propertyToggleGrowESP = config.get(Configuration.CATEGORY_GENERAL, "Grow ESP: Toggle Grow ESP", false, "Shows average of size of blob.");
 		toggleGrowESP = propertyToggleGrowESP.getBoolean();
 		others.put(propertyToggleGrowESP.getName(), new ConfigElement(propertyToggleGrowESP));
 		
-		Property propertyToggleGstepGuide = config.get(Configuration.CATEGORY_GENERAL, "Gstep Guide: Toggle Gstep Guide", true, "Show hitbox of Armor Stand in Gstep.");
+		Property propertyToggleGstepGuide = config.get(Configuration.CATEGORY_GENERAL, "Gstep Guide: Toggle Gstep Guide", false, "Show hitbox of Armor Stand in Gstep.");
 		toggleGstepGuide = propertyToggleGstepGuide.getBoolean();
 		others.put(propertyToggleGstepGuide.getName(), new ConfigElement(propertyToggleGstepGuide));
 		

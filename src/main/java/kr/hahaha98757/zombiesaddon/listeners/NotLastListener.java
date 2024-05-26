@@ -57,9 +57,9 @@ public class NotLastListener {
 		}
 		
 		tick++;
-		if (tick >= 100) {
+		if (tick >= 200) {
 			MinecraftForge.EVENT_BUS.unregister(this);
-			Minecraft.getMinecraft().thePlayer.addChatComponentMessage(new ChatComponentText("u00A7eNot Last: \u00A7cFailed to find the last."));
+			Minecraft.getMinecraft().thePlayer.addChatComponentMessage(new ChatComponentText("\u00A7eNot Last: \u00A7cFailed to find the last."));
 			tick = 0;
 		}
 
