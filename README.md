@@ -10,19 +10,23 @@ Use /cornering <number> command to set the range of cornering.
 Used the config.
 
 ### Block Alarm
-If you survived alone and there are players within 1.5m that can revive, show "BLOCK" on display.
+If you survived alone, show "BLOCK" on display.
 It works only if set the language of Hypixel in English or Korean.
 
 ### DPS Counter
 Counts your party's DPS.
 
-### NOTLAST
+### Not Last
 Shows who is kill the last in every round.
 It works only if set the language of Hypixel in English or Korean.
 
 ### Auto Splits
-Run LiveSplits or internal timer at start of round.
-Displays the wave delay.
+Run timer at start of round.
+
+### Wave Delays
+Displays the wave delays.
+You can set the style of the text to Zombies Addon (e.g. W1 0:10.0) or SST (e.g. W1 00:10).
+You can set the style of highlight to Zombies Addon or SST.
 If color of wave delay is yellow: Start wave soon.
 If it is green: Started wave.
 Displays the current wave with a purple arrow.
@@ -41,7 +45,9 @@ Displays the wave which the boss spawns.
 | Dark Apua and Dark Red | (Rainbow) Giant and The Old One |
 | Black | World Ender |
 
-Displays the grow time of Blob. It works only if set the language of Hypixel in English or Korean.
+### Grow Guide
+Displays the grow time of Blob.
+It works only if set the language of Hypixel in English or Korean.
 | Round | Time |
 |----|----|
 | r18, r23 | 38s |
@@ -66,12 +72,9 @@ Use /ZSVLines <number> command to set lines of view.
 ### Spawn Limit Action
 Display number of windows where zombies can spawn.
 Use /SLA <de|bb|aa|off> to sets the map or off SLA.
+You can change to SLAv2 in config.
+SLAv2 is displayed in more detail.
 Used the config.
-
-#### Advanced SLA
-Activate Advanced SLA in config to use it.
-SLA is displayed in more detail.
-Others is the same as SLA.
 
 ### Auto Rejoin
 Automatically rejoin the Zombies game.
@@ -82,7 +85,6 @@ It works only if set the language of Hypixel in English or Korean.
 You will receive an alarm when a powerup is spawned.
 You will know when powerup spawn and despawn.
 Use /powerupAlarm <insta|max|ss> [number|on|off] command to reset or set the pattern.
-Used the config.
 It works only if set the language of Hypixel in English or Korean.
 
 ### Zombies Overlay in Korean
@@ -90,18 +92,10 @@ It works only if set the language of Hypixel in English or Korean.
 
 ### Boss Alarm
 You will know the area where the boss spawned.
-Used the config.
 It works only if set the language of Hypixel in English or Korean.
-
-### Lrod Order
-Shows the order of use of Lrod.
-Used the config.
-It works only if set the language of Hypixel in English or Korean.
-It is removed.(pre)
 
 ### Grow ESP
 Shows the arithmetic mean of the size of the slimes for growing.
-Used the config.
 
 ### Gstep Guide
 Shows hitbox of armor stand in Gstep.
@@ -115,6 +109,15 @@ You can turn off timer of Zombies Utils in the ".minecraft\config\ZombiesAddonZo
 ****
 
 ## Update Log
+
+### 1.17.0-pre1
+- Fixed bugs.
+- Fixed Auto Splits.
+- Renamed NOTLAST.
+- Fixed config.
+- Fixed Wave Delays.
+- Fixed Not Last.
+
 
 ### 1.16.0
 - Fixed bugs.
