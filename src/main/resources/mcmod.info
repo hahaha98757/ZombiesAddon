@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ZombiesAddon",
+  "name": "Zombies Addon",
+  "description": "A mod that helps playing hypixel zombies. Use /info command to view mod's description.",
+  "version": "1.17.0-pre4",
+  "mcversion": "1.8.9",
+  "url": "https://github.com/hahaha98757/ZombiesAddon",
+  "updateUrl": "https://github.com/hahaha98757/ZombiesAddon/releases",
+  "authorList": ["hahaha98757"],
+  "credits": "Thanks by syeyoung, thamid, sk1er, Stachelbeere1248, and Dreaght",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
