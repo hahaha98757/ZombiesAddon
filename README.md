@@ -24,7 +24,7 @@ It works only if set the language of Hypixel in English or Korean.
 Run timer at start of round.
 
 ### Wave Delays
-Displays the wave delays.
+Displays the wave delays. It can be used without Auto Splits.
 You can set the style of the text to Zombies Addon (e.g. W1 0:10.0) or SST (e.g. W1 00:10).
 You can set the style of highlight to Zombies Addon or SST.
 If color of wave delay is yellow: Start wave soon.
@@ -46,7 +46,7 @@ Displays the wave which the boss spawns.
 | Black | World Ender |
 
 ### Grow Guide
-Displays the grow time of Blob.
+Displays the grow time of Blob. It can be used without Auto Splits.
 It works only if set the language of Hypixel in English or Korean.
 | Round | Time |
 |----|----|
@@ -61,11 +61,8 @@ It works only if set the language of Hypixel in English or Korean.
 
 ### Zombies Strat Viewer
 Displays the text in [https://pastebin.com/](https://pastebin.com/) on the in-game screen.
-Use /ZSV <URL|de|bb|aa|off> command to load or close text.
+Use /ZSV <URL|off> command to load or close text.
 URL: It must start with "https://pastebin.com/raw/".
-de: Load [the text](https://pastebin.com/raw/sb65mNA9).
-bb: Load [the text](https://pastebin.com/raw/NrQEhqQy).
-aa: Load [the text](https://pastebin.com/raw/4KE9jkXY).
 off: Close text.
 Use /ZSVLines <number> command to set lines of view.
 
@@ -109,6 +106,9 @@ You can turn off timer of Zombies Utils in the ".minecraft\config\ZombiesAddonZo
 ****
 
 ## Update Log
+
+### 1.17.0
+- Fixed bugs.
 
 ### 1.17.0-pre4
 - Fixed bugs.
