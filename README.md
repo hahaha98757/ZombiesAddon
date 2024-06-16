@@ -87,7 +87,7 @@ It works only if set the language of Hypixel in English or Korean.
 ### Zombies Overlay in Korean
 [Zombies Overlay](https://github.com/TheExploration/zombies-overlay) works even if language of Hypixel in Korean.
 
-### Boss Alarm
+### Boss Spawn Tracker
 You will know the area where the boss spawned.
 It works only if set the language of Hypixel in English or Korean.
 
@@ -98,6 +98,14 @@ Shows the arithmetic mean of the size of the slimes for growing.
 Shows hitbox of armor stand in Gstep.
 It works only if set the language of Hypixel in English or Korean.
 
+### Player Tracker
+Shows the location of the player.
+It works ony if set the language of Hypixel in English or Korean.
+
+### Boss Tracker
+Shows the location of the boss.
+It works ony if set the language of Hypixel in English or Korean.
+
 ### Other
 Fixed a bug of forge that commands are runned without "/".
 You can turn off Wave Delay of SST in the ".minecraft\config\ZombiesAddonSST.txt".
@@ -106,6 +114,12 @@ You can turn off timer of Zombies Utils in the ".minecraft\config\ZombiesAddonZo
 ****
 
 ## Update Log
+
+### 2.0.0
+- Fixed bug.
+- Renamed Boss Alarm.
+- Fixed a bug that some functions did not work when the nickname contained "_".
+
 
 ### 1.17.2-pre1
 - Fixed bug.
