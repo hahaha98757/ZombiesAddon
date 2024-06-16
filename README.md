@@ -115,6 +115,11 @@ You can turn off timer of Zombies Utils in the ".minecraft\config\ZombiesAddonZo
 
 ## Update Log
 
+### 3.0.0
+- Fixed bug.
+- Fixed a bug that Boss Tracker did display non-boss mobs.
+
+
 ### 2.0.0
 - Fixed bug.
 - Renamed Boss Alarm.
