@@ -115,6 +115,11 @@ You can turn off timer of Zombies Utils in the ".minecraft\config\ZombiesAddonZo
 
 ## Update Log
 
+### 3.1.0-pre1
+- Added Prison at Wave Delays.
+- Boss Wave Alarm, SLA, Boss Spawn Tracker, Boss Tracker is not work in Prison.
+
+
 ### 3.0.0
 - Fixed bug.
 - Fixed a bug that Boss Tracker did display non-boss mobs.
