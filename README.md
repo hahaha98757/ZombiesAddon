@@ -69,6 +69,8 @@ Use /ZSVLines <number> command to set lines of view.
 ### Spawn Limit Action
 Display number of windows where zombies can spawn.
 Use /SLA <de|bb|aa|off> to sets the map or off SLA.
+Use /SLA old to set SLA to the system prior to release Prison.
+It is changed new SLA when join other world.
 You can change to SLAv2 in config.
 SLAv2 is displayed in more detail.
 Used the config.
