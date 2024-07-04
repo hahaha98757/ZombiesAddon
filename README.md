@@ -117,6 +117,15 @@ You can turn off timer of Zombies Utils in the ".minecraft\config\ZombiesAddonZo
 
 ## Update Log
 
+### 3.1.0-pre8
+- Fixed bugs.
+- Fixed Wave Delays.
+- Fixed Boss Tracker.
+- Fixed Player Tracker.
+- Removed Grow ESP.
+- Removed Grow Guide.
+- Removed Boss Spawn Tracker.
+
 ### 3.1.0-pre7
 - Fixed bugs.
 - Fixed Wave Delays.
