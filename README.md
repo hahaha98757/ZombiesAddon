@@ -13,9 +13,6 @@ Used the config.
 If you survived alone, show "BLOCK" on display.
 It works only if set the language of Hypixel in English or Korean.
 
-### DPS Counter
-Counts your party's DPS.
-
 ### Not Last
 Shows who is kill the last in every round.
 It works only if set the language of Hypixel in English or Korean.
@@ -45,20 +42,6 @@ Displays the wave which the boss spawns.
 | Dark Apua and Dark Red | (Rainbow) Giant and The Old One |
 | Black | World Ender |
 
-### Grow Guide
-Displays the grow time of Blob. It can be used without Auto Splits.
-It works only if set the language of Hypixel in English or Korean.
-| Round | Time |
-|----|----|
-| r18, r23 | 38s |
-| r26 | 40s |
-| r29 | 36s[or earlier] |
-| r31, r33, r34 | 42s |
-| r39 | 22s |
-| r43 | 13s |
-| r47 | 41s[or earlier] |
-| r52 | 27s |
-
 ### Zombies Strat Viewer
 Displays the text in [https://pastebin.com/](https://pastebin.com/) on the in-game screen.
 Use /ZSV <URL|off> command to load or close text.
@@ -67,12 +50,8 @@ off: Close text.
 Use /ZSVLines <number> command to set lines of view.
 
 ### Spawn Limit Action
-Display number of windows where zombies can spawn.
+Display number and name of windows where zombies can spawn.
 Use /SLA <de|bb|aa|off> to sets the map or off SLA.
-Use /SLA old to set SLA to the system prior to release Prison.
-It is changed new SLA when join other world.
-You can change to SLAv2 in config.
-SLAv2 is displayed in more detail.
 Used the config.
 
 ### Auto Rejoin
@@ -81,32 +60,12 @@ Used the config.
 It works only if set the language of Hypixel in English or Korean.
 
 ### Powerup Alarm
-You will receive an alarm when a powerup is spawned.
-You will know when powerup spawn and despawn.
+Show power-up patterns.
 Use /powerupAlarm <insta|max|ss> [number|on|off] command to reset or set the pattern.
 It works only if set the language of Hypixel in English or Korean.
 
 ### Zombies Overlay in Korean
 [Zombies Overlay](https://github.com/TheExploration/zombies-overlay) works even if language of Hypixel in Korean.
-
-### Boss Spawn Tracker
-You will know the area where the boss spawned.
-It works only if set the language of Hypixel in English or Korean.
-
-### Grow ESP
-Shows the arithmetic mean of the size of the slimes for growing.
-
-### Gstep Guide
-Shows hitbox of armor stand in Gstep.
-It works only if set the language of Hypixel in English or Korean.
-
-### Player Tracker
-Shows the location of the player.
-It works ony if set the language of Hypixel in English or Korean.
-
-### Boss Tracker
-Shows the location of the boss.
-It works ony if set the language of Hypixel in English or Korean.
 
 ### Other
 Fixed a bug of forge that commands are runned without "/".
@@ -116,6 +75,14 @@ You can turn off timer of Zombies Utils in the ".minecraft\config\ZombiesAddonZo
 ****
 
 ## Update Log
+
+# 4.0.0
+- Removed DPS Counter.
+- Removed Player Tracker.
+- Removed Boss Tracker.
+- Removed Gstep Guide.
+- Fixed Powerup Alarm.
+
 
 ### 3.1.0-pre8
 - Fixed bugs.
